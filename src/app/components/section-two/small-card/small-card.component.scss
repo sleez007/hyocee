@@ -1,0 +1,9 @@
+.card {
+  @apply rounded-md p-3 border border-solid border-[#E6E8EC80] grid gap-4;
+}
+
+.card:hover {
+  button {
+    @apply border-b border-b-solid border-green;
+  }
+}

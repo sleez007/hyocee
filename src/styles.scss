@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pad-x {
+  @apply px-5 sm:px-6 md:px-10 xl:px-20 2xl:px-24;
+}
+
+.pad-y {
+  @apply py-5 sm:py-6 md:py-10 xl:py-20 2xl:py-24;
+}
+
+h2 {
+  @apply text-3xl lg:text-4xl 2xl:text-[50px] 2xl:leading-[55px];
+}
+
+.body-text {
+  @apply text-base;
+}
+
+.x-br {
+  @apply hidden xl:block;
+}
+
+.g-btn {
+  @apply text-white bg-green px-4 lg:px-6 py-3 rounded-md;
+}
+
+.o-btn {
+  @apply text-black border border-solid border-black rounded-md bg-white px-4 lg:px-6 py-3;
+}
